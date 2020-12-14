@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         // 処理
         let result = num1 + num2 + num3 + num4 + num5
         // 出力
-        print(result)
+        // print(result)
         label.text = String(result)
     }
     
