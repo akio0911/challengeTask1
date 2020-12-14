@@ -20,11 +20,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print(type(of: UITextField.self))
+        // 初期値
+        label.text = "0"
         
     }
     
-    @IBAction func plus(_ sender: Any) {
+    @IBAction func plus(_ sender: UIButton) {
         
         // 入力
         // UITextFieldがOptional<String>型のため??演算子が必要
@@ -36,7 +37,6 @@ class ViewController: UIViewController {
         // 処理
         let result = num1 + num2 + num3 + num4 + num5
         // 出力
-        // print(result)
         label.text = String(result)
     }
     
