@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     @IBAction func plus(_ sender: Any) {
         
         // 入力
-        // UITextFieldがOptional<String型>のため??演算子が必要
+        // UITextFieldがOptional<String>型のため??演算子が必要
         let num1 = Int(textField1.text ?? "") ?? 0
         let num2 = Int(textField2.text ?? "") ?? 0
         let num3 = Int(textField3.text ?? "") ?? 0
